@@ -718,3 +718,29 @@ START: 2026-02-09 00:13:47.047545
 END:   2026-02-09 00:13:54.073226
 DURATION: 7s
 --------------------------------------------------
+SEVERITY: MEDIUM (score=5)
+APP: powershell.exe
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 185.199.108.153:5555
+HOST: cdn-185-199-108-153.github.com
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+ - PUBLIC IP
+START: 2026-02-09 00:14:01.121484
+END:   2026-02-09 00:14:22.220727
+DURATION: 21s
+--------------------------------------------------
+SEVERITY: LOW (score=2)
+APP: powershell.exe
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 1.1.1.1:54321
+HOST: one.one.one.one
+FLAGS:
+ - HIGH RANDOM PORT
+ - PORT LẠ
+ - PUBLIC IP
+START: 2026-02-09 00:14:13.179619
+END:   2026-02-09 00:14:34.310664
+DURATION: 21s
+--------------------------------------------------
