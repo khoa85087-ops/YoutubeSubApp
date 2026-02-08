@@ -667,3 +667,36 @@ START: 2026-02-09 00:22:38.225101
 END:   2026-02-09 00:22:59.347384
 DURATION: 21s
 --------------------------------------------------
+SEVERITY: MEDIUM (score=5)
+APP: powershell.exe
+PARENT: cmd.exe (PID 7816)
+CMDLINE: powershell -Command $c=New-Object Net.Sockets.TcpClient('8.8.8.8',9001); Start-Sleep 5; $c.Close()
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 8.8.8.8:9001
+HOST: dns.google
+LIFETIME: 21s
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+ - PUBLIC IP
+START: 2026-02-09 00:22:54.313186
+END:   2026-02-09 00:23:15.441478
+DURATION: 21s
+--------------------------------------------------
+SEVERITY: HIGH (score=8)
+APP: powershell.exe
+PARENT: cmd.exe (PID 16268)
+CMDLINE: powershell -Command $c=New-Object Net.Sockets.TcpClient('45.67.89.123',5555); Start-Sleep 6; $c.Close()
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 45.67.89.123:5555
+HOST: Unknown
+LIFETIME: 22s
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+ - PUBLIC IP
+ - RAW IP (no DNS)
+START: 2026-02-09 00:23:06.397388
+END:   2026-02-09 00:23:27.516564
+DURATION: 21s
+--------------------------------------------------
