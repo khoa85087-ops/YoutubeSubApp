@@ -692,3 +692,29 @@ START: 2026-02-09 00:13:01.832097
 END:   2026-02-09 00:13:22.928810
 DURATION: 21s
 --------------------------------------------------
+SEVERITY: MEDIUM (score=5)
+APP: powershell.exe
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 8.8.8.8:9001
+HOST: dns.google
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+ - PUBLIC IP
+START: 2026-02-09 00:13:22.928810
+END:   2026-02-09 00:13:44.020773
+DURATION: 21s
+--------------------------------------------------
+SEVERITY: MEDIUM (score=5)
+APP: powershell.exe
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 8.8.8.8:9001
+HOST: dns.google
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+ - PUBLIC IP
+START: 2026-02-09 00:13:47.047545
+END:   2026-02-09 00:13:54.073226
+DURATION: 7s
+--------------------------------------------------
