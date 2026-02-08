@@ -1,0 +1,664 @@
+APP: MpDefenderCoreService.exe
+DEST: 23.66.33.52:80
+HOST: a23-66-33-52.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 10:12:14
+END:   2026-02-03 10:12:47
+DURATION: 33s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 10:06:50
+END:   2026-02-03 10:18:04
+DURATION: 674s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 10:19:00
+END:   2026-02-03 10:43:21
+DURATION: 1460s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 10:43:27
+END:   2026-02-03 10:56:49
+DURATION: 802s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 107.189.7.71:2096
+HOST: Unknown
+TYPE: PORT LẠ (2096)
+START: 2026-02-03 10:06:50
+END:   2026-02-03 11:04:07
+DURATION: 3436s
+----------------------------------------
+APP: lsass.exe
+DEST: 13.227.237.26:80
+HOST: server-13-227-237-26.han51.r.cloudfront.net
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 11:10:21
+END:   2026-02-03 11:11:21
+DURATION: 60s
+----------------------------------------
+APP: svchost.exe
+DEST: 14.102.231.203:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 11:53:21
+END:   2026-02-03 11:53:35
+DURATION: 14s
+----------------------------------------
+APP: svchost.exe
+DEST: 14.102.231.208:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 11:53:25
+END:   2026-02-03 11:54:05
+DURATION: 39s
+----------------------------------------
+APP: svchost.exe
+DEST: 146.75.46.172:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 11:53:16
+END:   2026-02-03 11:55:06
+DURATION: 109s
+----------------------------------------
+APP: OfficeClickToRun.exe
+DEST: 146.75.46.172:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 11:53:15
+END:   2026-02-03 11:56:12
+DURATION: 176s
+----------------------------------------
+APP: brave.exe
+DEST: 104.18.38.233:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 13:40:21
+END:   2026-02-03 13:47:21
+DURATION: 419s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 21:11:41
+END:   2026-02-03 21:13:06
+DURATION: 84s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 21:13:07
+END:   2026-02-03 21:15:41
+DURATION: 153s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 21:15:47
+END:   2026-02-03 21:27:42
+DURATION: 714s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 21:27:47
+END:   2026-02-03 21:27:58
+DURATION: 11s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 21:28:02
+END:   2026-02-03 21:41:31
+DURATION: 809s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 21:41:33
+END:   2026-02-03 21:51:12
+DURATION: 579s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-03 21:51:14
+END:   2026-02-03 21:55:47
+DURATION: 272s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 107.189.7.71:2096
+HOST: Unknown
+TYPE: PORT LẠ (2096)
+START: 2026-02-03 21:16:45
+END:   2026-02-03 21:56:10
+DURATION: 2364s
+----------------------------------------
+APP: LockApp.exe
+DEST: 23.66.33.52:80
+HOST: a23-66-33-52.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 18:30:10
+END:   2026-02-03 22:07:36
+DURATION: 13046s
+----------------------------------------
+APP: svchost.exe
+DEST: 199.232.150.172:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-03 22:10:50
+END:   2026-02-03 22:11:50
+DURATION: 60s
+----------------------------------------
+APP: steam.exe
+DEST: 184.30.148.85:80
+HOST: a184-30-148-85.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:22:32
+END:   2026-02-05 00:23:03
+DURATION: 31s
+----------------------------------------
+APP: svchost.exe
+DEST: 172.64.149.23:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:22:32
+END:   2026-02-05 00:23:33
+DURATION: 60s
+----------------------------------------
+APP: ProtonVPNService.exe
+DEST: 10.2.0.1:65432
+HOST: Unknown
+TYPE: PORT LẠ (65432)
+START: 2026-02-05 00:22:31
+END:   2026-02-05 00:23:35
+DURATION: 63s
+----------------------------------------
+APP: steam.exe
+DEST: 103.28.54.100:27025
+HOST: 103-28-54-100.valve.net
+TYPE: PORT LẠ (27025)
+START: 2026-02-05 00:22:38
+END:   2026-02-05 00:23:35
+DURATION: 56s
+----------------------------------------
+APP: steam.exe
+DEST: 2.21.22.152:80
+HOST: a2-21-22-152.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:23:40
+END:   2026-02-05 00:24:11
+DURATION: 30s
+----------------------------------------
+APP: steam.exe
+DEST: 162.254.195.69:27018
+HOST: 162-254-195-69.valve.net
+TYPE: PORT LẠ (27018)
+START: 2026-02-05 00:23:55
+END:   2026-02-05 00:24:16
+DURATION: 20s
+----------------------------------------
+APP: steam.exe
+DEST: 2.21.22.169:80
+HOST: a2-21-22-169.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:24:17
+END:   2026-02-05 00:24:47
+DURATION: 30s
+----------------------------------------
+APP: steam.exe
+DEST: 162.254.195.75:27018
+HOST: 162-254-195-75.valve.net
+TYPE: PORT LẠ (27018)
+START: 2026-02-05 00:24:30
+END:   2026-02-05 00:24:50
+DURATION: 20s
+----------------------------------------
+APP: steam.exe
+DEST: 2.21.22.169:80
+HOST: a2-21-22-169.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:24:50
+END:   2026-02-05 00:25:22
+DURATION: 31s
+----------------------------------------
+APP: steam.exe
+DEST: 104.18.20.213:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:23:51
+END:   2026-02-05 00:27:17
+DURATION: 205s
+----------------------------------------
+APP: steam.exe
+DEST: 104.18.21.213:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:24:29
+END:   2026-02-05 00:27:17
+DURATION: 168s
+----------------------------------------
+APP: ProtonVPNService.exe
+DEST: 10.2.0.1:65432
+HOST: Unknown
+TYPE: PORT LẠ (65432)
+START: 2026-02-05 00:23:40
+END:   2026-02-05 00:37:02
+DURATION: 801s
+----------------------------------------
+APP: ProtonVPN.Client.exe
+DEST: 185.159.159.1:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:24:48
+END:   2026-02-05 00:37:02
+DURATION: 733s
+----------------------------------------
+APP: steam.exe
+DEST: 27.77.81.24:80
+HOST: DESKTOP-D3LBCLN
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:37:07
+END:   2026-02-05 00:37:32
+DURATION: 25s
+----------------------------------------
+APP: steam.exe
+DEST: 162.254.198.69:27019
+HOST: 162-254-198-69.valve.net
+TYPE: PORT LẠ (27019)
+START: 2026-02-05 00:37:23
+END:   2026-02-05 00:37:54
+DURATION: 31s
+----------------------------------------
+APP: steam.exe
+DEST: 155.133.252.69:27021
+HOST: Unknown
+TYPE: PORT LẠ (27021)
+START: 2026-02-05 00:37:24
+END:   2026-02-05 00:37:57
+DURATION: 32s
+----------------------------------------
+APP: steam.exe
+DEST: 104.18.21.213:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 00:37:22
+END:   2026-02-05 00:40:07
+DURATION: 164s
+----------------------------------------
+APP: AdskExecutorProxy.exe
+DEST: 23.66.33.52:80
+HOST: a23-66-33-52.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 12:30:30
+END:   2026-02-05 12:30:37
+DURATION: 7s
+----------------------------------------
+APP: brave.exe
+DEST: 23.36.145.26:80
+HOST: a23-36-145-26.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 14:31:30
+END:   2026-02-05 14:36:53
+DURATION: 322s
+----------------------------------------
+APP: brave.exe
+DEST: 23.206.122.56:80
+HOST: a23-206-122-56.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 14:31:30
+END:   2026-02-05 14:36:53
+DURATION: 322s
+----------------------------------------
+APP: steam.exe
+DEST: 27.77.81.160:80
+HOST: DESKTOP-D3LBCLN
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:05:02
+END:   2026-02-05 16:05:33
+DURATION: 31s
+----------------------------------------
+APP: steam.exe
+DEST: 103.10.124.5:27019
+HOST: 103-10-124-5.valve.net
+TYPE: PORT LẠ (27019)
+START: 2026-02-05 16:05:16
+END:   2026-02-05 16:05:46
+DURATION: 30s
+----------------------------------------
+APP: steam.exe
+DEST: 103.10.124.4:27019
+HOST: 103-10-124-4.valve.net
+TYPE: PORT LẠ (27019)
+START: 2026-02-05 16:05:16
+END:   2026-02-05 16:05:46
+DURATION: 30s
+----------------------------------------
+APP: steam.exe
+DEST: 103.28.54.102:27024
+HOST: 103-28-54-102.valve.net
+TYPE: PORT LẠ (27024)
+START: 2026-02-05 16:05:16
+END:   2026-02-05 16:05:46
+DURATION: 30s
+----------------------------------------
+APP: steam.exe
+DEST: 203.113.182.179:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:05:18
+END:   2026-02-05 16:05:49
+DURATION: 30s
+----------------------------------------
+APP: steam.exe
+DEST: 104.18.21.213:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:05:16
+END:   2026-02-05 16:07:06
+DURATION: 110s
+----------------------------------------
+APP: steam.exe
+DEST: 104.18.20.213:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:06:11
+END:   2026-02-05 16:08:56
+DURATION: 165s
+----------------------------------------
+APP: svchost.exe
+DEST: 14.102.231.201:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:27:02
+END:   2026-02-05 16:27:13
+DURATION: 11s
+----------------------------------------
+APP: svchost.exe
+DEST: 14.102.231.202:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:27:04
+END:   2026-02-05 16:27:19
+DURATION: 14s
+----------------------------------------
+APP: svchost.exe
+DEST: 146.75.46.172:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:27:36
+END:   2026-02-05 16:27:58
+DURATION: 22s
+----------------------------------------
+APP: svchost.exe
+DEST: 146.75.46.172:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:26:54
+END:   2026-02-05 16:28:45
+DURATION: 111s
+----------------------------------------
+APP: OfficeClickToRun.exe
+DEST: 146.75.46.172:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:26:54
+END:   2026-02-05 16:29:13
+DURATION: 139s
+----------------------------------------
+APP: OfficeClickToRun.exe
+DEST: 203.113.182.178:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:27:00
+END:   2026-02-05 16:29:13
+DURATION: 133s
+----------------------------------------
+APP: brave.exe
+DEST: 23.36.145.26:80
+HOST: a23-36-145-26.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:35:10
+END:   2026-02-05 16:37:07
+DURATION: 116s
+----------------------------------------
+APP: esrv_svc.exe
+DEST: 104.18.38.233:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 16:45:50
+END:   2026-02-05 16:46:50
+DURATION: 60s
+----------------------------------------
+APP: brave.exe
+DEST: 23.36.145.123:80
+HOST: a23-36-145-123.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 17:59:43
+END:   2026-02-05 18:02:19
+DURATION: 155s
+----------------------------------------
+APP: steam.exe
+DEST: 203.113.182.136:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 19:37:07
+END:   2026-02-05 19:37:38
+DURATION: 31s
+----------------------------------------
+APP: steam.exe
+DEST: 203.113.182.150:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 19:51:07
+END:   2026-02-05 19:51:37
+DURATION: 30s
+----------------------------------------
+APP: brave.exe
+DEST: 23.36.145.26:80
+HOST: a23-36-145-26.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 21:15:49
+END:   2026-02-05 21:25:39
+DURATION: 589s
+----------------------------------------
+APP: brave.exe
+DEST: 23.66.33.52:80
+HOST: a23-66-33-52.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 21:16:46
+END:   2026-02-05 21:26:36
+DURATION: 589s
+----------------------------------------
+APP: esrv_svc.exe
+DEST: 146.75.46.172:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 22:16:02
+END:   2026-02-05 22:17:02
+DURATION: 60s
+----------------------------------------
+APP: esrv_svc.exe
+DEST: 104.18.38.233:80
+HOST: Unknown
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 22:16:02
+END:   2026-02-05 22:17:02
+DURATION: 60s
+----------------------------------------
+APP: AdskExecutorProxy.exe
+DEST: 59.151.128.10:80
+HOST: a59-151-128-10.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-05 22:51:05
+END:   2026-02-05 22:51:16
+DURATION: 11s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-06 00:28:41
+END:   2026-02-06 00:47:30
+DURATION: 1128s
+----------------------------------------
+APP: MpDefenderCoreService.exe
+DEST: 23.50.21.119:80
+HOST: a23-50-21-119.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-06 00:50:34
+END:   2026-02-06 00:52:23
+DURATION: 109s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-06 00:48:32
+END:   2026-02-06 01:08:17
+DURATION: 1185s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-06 01:08:19
+END:   2026-02-06 01:09:24
+DURATION: 64s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-06 01:09:29
+END:   2026-02-06 01:09:37
+DURATION: 8s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-06 01:09:46
+END:   2026-02-06 01:09:57
+DURATION: 11s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-06 01:10:03
+END:   2026-02-06 01:10:08
+DURATION: 5s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7911
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7911)
+START: 2026-02-06 01:10:16
+END:   2026-02-06 01:20:02
+DURATION: 586s
+----------------------------------------
+APP: StartMenuExperienceHost.exe
+DEST: 23.50.21.119:80
+HOST: a23-50-21-119.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-07 23:28:27
+END:   2026-02-07 23:30:16
+DURATION: 109s
+----------------------------------------
+APP: ms-teams.exe
+DEST: 23.66.33.52:80
+HOST: a23-66-33-52.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-08 12:25:58
+END:   2026-02-08 12:27:49
+DURATION: 110s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-08 17:43:24
+END:   2026-02-08 17:52:59
+DURATION: 574s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-08 17:53:02
+END:   2026-02-08 17:59:46
+DURATION: 404s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-08 17:59:48
+END:   2026-02-08 18:02:31
+DURATION: 162s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-08 18:02:33
+END:   2026-02-08 18:11:05
+DURATION: 511s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+TYPE: PORT LẠ (7912)
+START: 2026-02-08 18:11:07
+END:   2026-02-08 18:22:20
+DURATION: 672s
+----------------------------------------
+APP: EDOPro.exe
+DEST: 107.189.7.71:2096
+HOST: Unknown
+TYPE: PORT LẠ (2096)
+START: 2026-02-08 17:42:18
+END:   2026-02-08 18:22:44
+DURATION: 2425s
+----------------------------------------
+APP: LockApp.exe
+DEST: 23.50.21.119:80
+HOST: a23-50-21-119.deploy.static.akamaitechnologies.com
+TYPE: HTTP (không mã hoá)
+START: 2026-02-08 11:13:13
+END:   2026-02-08 20:11:27
+DURATION: 32293s
+
+
+
+
+
+SEVERITY: MEDIUM (score=4)
+APP: EDOPro.exe
+PATH: C:\ProjectIgnis\EDOPro.exe
+DEST: 149.202.51.153:7912
+HOST: vps-f21b157b.vps.ovh.net
+FLAGS:
+ - BEACONING (periodic C2)
+ - PORT LẠ
+START: 2026-02-08 21:27:22.681462
+END:   2026-02-08 21:46:16.406379
+DURATION: 1133s
+--------------------------------------------------
