@@ -743,3 +743,19 @@ START:        2026-02-09 00:45:55.939507
 END:          2026-02-09 00:47:57.302630
 ================================================================================
 
+[LOW] Zalo.exe → 103.39.92.111:443 (Unknown) | dur:295s | score:6
+----------------------------------------------------------------------
+APP:          Zalo.exe
+PARENT_CHAIN: Zalo.exe (10140)
+CMDLINE:      C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --user-data-dir=C:\Users\AD\AppData\Roaming\ZaloData --mojo-platform-channel-handle=1992 --field-trial-handle=1736,i,2561288174647370673,...
+PATH:         C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe
+DEST:         103.39.92.111:443  (Unknown)
+PROC_AGE:     21910s
+DURATION:     295s
+FLAGS:
+  • RAW_IP_NO_DNS
+  • SUSPICIOUS_PATH
+START:        2026-02-09 00:45:24.649613
+END:          2026-02-09 00:50:20.066508
+================================================================================
+
