@@ -679,3 +679,16 @@ START: 2026-02-09 00:12:31.702084
 END:   2026-02-09 00:12:52.779712
 DURATION: 21s
 --------------------------------------------------
+SEVERITY: MEDIUM (score=5)
+APP: powershell.exe
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 1.1.1.1:4444
+HOST: one.one.one.one
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+ - PUBLIC IP
+START: 2026-02-09 00:13:01.832097
+END:   2026-02-09 00:13:22.928810
+DURATION: 21s
+--------------------------------------------------
