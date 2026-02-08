@@ -666,3 +666,49 @@ START:        2026-02-09 00:42:24.952163
 END:          2026-02-09 00:42:58.581532
 ================================================================================
 
+[LOW] Zalo.exe → 49.213.95.182:443 (Unknown) | dur:31s | score:6
+----------------------------------------------------------------------
+APP:          Zalo.exe
+PARENT_CHAIN: Zalo.exe (10140)
+CMDLINE:      C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --user-data-dir=C:\Users\AD\AppData\Roaming\ZaloData --mojo-platform-channel-handle=1992 --field-trial-handle=1736,i,2561288174647370673,...
+PATH:         C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe
+DEST:         49.213.95.182:443  (Unknown)
+PROC_AGE:     21640s
+DURATION:     31s
+FLAGS:
+  • RAW_IP_NO_DNS
+  • SUSPICIOUS_PATH
+START:        2026-02-09 00:45:18.491867
+END:          2026-02-09 00:45:50.000406
+================================================================================
+
+[LOW] Zalo.exe → 49.213.95.122:443 (chat.zalo.me) | dur:31s | score:4
+----------------------------------------------------------------------
+APP:          Zalo.exe
+PARENT_CHAIN: Zalo.exe (10140)
+CMDLINE:      C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --user-data-dir=C:\Users\AD\AppData\Roaming\ZaloData --mojo-platform-channel-handle=1992 --field-trial-handle=1736,i,2561288174647370673,...
+PATH:         C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe
+DEST:         49.213.95.122:443  (chat.zalo.me)
+PROC_AGE:     21640s
+DURATION:     31s
+FLAGS:
+  • SUSPICIOUS_PATH
+START:        2026-02-09 00:45:18.491867
+END:          2026-02-09 00:45:50.000406
+================================================================================
+
+[LOW] Zalo.exe → 49.213.95.137:443 (chat.zalo.me) | dur:25s | score:4
+----------------------------------------------------------------------
+APP:          Zalo.exe
+PARENT_CHAIN: Zalo.exe (10140)
+CMDLINE:      C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --user-data-dir=C:\Users\AD\AppData\Roaming\ZaloData --mojo-platform-channel-handle=1992 --field-trial-handle=1736,i,2561288174647370673,...
+PATH:         C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe
+DEST:         49.213.95.137:443  (chat.zalo.me)
+PROC_AGE:     21640s
+DURATION:     25s
+FLAGS:
+  • SUSPICIOUS_PATH
+START:        2026-02-09 00:45:24.649613
+END:          2026-02-09 00:45:50.000406
+================================================================================
+
