@@ -666,3 +666,18 @@ START:        2026-02-09 00:56:07.980306
 END:          2026-02-09 00:57:57.443264
 ================================================================================
 
+[LOW] Zalo.exe → 171.236.60.223:443 (dynamic-ip-adsl.viettel.vn) | dur:120s | score:4
+----------------------------------------------------------------------
+APP:          Zalo.exe
+PARENT_CHAIN: Zalo.exe (10140)
+CMDLINE:      C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --user-data-dir=C:\Users\AD\AppData\Roaming\ZaloData --mojo-platform-channel-handle=1992 --field-trial-handle=1736,i,2561288174647370673,...
+PATH:         C:\Users\AD\AppData\Local\Programs\Zalo\Zalo-26.1.20\Zalo.exe
+DEST:         171.236.60.223:443  (dynamic-ip-adsl.viettel.vn)
+PROC_AGE:     22667s
+DURATION:     120s
+FLAGS:
+  • SUSPICIOUS_PATH
+START:        2026-02-09 01:00:56.644342
+END:          2026-02-09 01:02:56.889722
+================================================================================
+
