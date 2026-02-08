@@ -744,3 +744,19 @@ START: 2026-02-09 00:14:13.179619
 END:   2026-02-09 00:14:34.310664
 DURATION: 21s
 --------------------------------------------------
+SEVERITY: MEDIUM (score=5)
+APP: powershell.exe
+PARENT: cmd.exe (PID 5244)
+CMDLINE: powershell -Command $c=New-Object Net.Sockets.TcpClient('8.8.8.8',9001); Start-Sleep 5; $c.Close()
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 8.8.8.8:9001
+HOST: dns.google
+LIFETIME: 21s
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+ - PUBLIC IP
+START: 2026-02-09 00:19:53.352345
+END:   2026-02-09 00:20:14.437681
+DURATION: 21s
+--------------------------------------------------
