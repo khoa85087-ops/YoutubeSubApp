@@ -677,3 +677,15 @@ START: 2026-02-09 00:07:20.868602
 END:   2026-02-09 00:07:40.960983
 DURATION: 20s
 --------------------------------------------------
+SEVERITY: HIGH (score=6)
+APP: powershell.exe
+PATH: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DEST: 1.1.1.1:5555
+HOST: one.one.one.one
+FLAGS:
+ - C2 / BACKDOOR PORT
+ - PORT LẠ
+START: 2026-02-09 00:07:28.904186
+END:   2026-02-09 00:07:50.070769
+DURATION: 21s
+--------------------------------------------------
