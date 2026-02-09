@@ -787,27 +787,3 @@ START:        2026-02-09 01:25:59.574064
 END:          2026-02-09 01:27:59.886053
 ================================================================================
 
-2026-02-09 18:37:45,776 - WARNING - [MEDIUM] N/A (TCP) → 203.113.182.143:443 (Unknown/Timeout) | dur:72s | score:13
-PARENT: wininit.exe (1080) → services.exe (1216)
-CMD: N/A
-PATH: N/A
-FLAGS: NEW_PROCESS, RAW_IP_NO_DNS, UNKNOWN_SOURCE
---------------------------------------------------------------------------------
-2026-02-09 18:41:10,040 - WARNING - [MEDIUM] N/A (TCP) → 203.113.182.143:443 (Unknown/Timeout) | dur:78s | score:13
-PARENT: wininit.exe (1080) → services.exe (1216)
-CMD: N/A
-PATH: N/A
-FLAGS: NEW_PROCESS, RAW_IP_NO_DNS, UNKNOWN_SOURCE
---------------------------------------------------------------------------------
-2026-02-09 18:50:17,855 - WARNING - [MEDIUM] brave.exe (TCP) → 104.18.39.21:443 (Unknown/Timeout) | dur:902s | score:12
-PARENT: explorer.exe (8372) → brave.exe (3956)
-CMD: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2240,i,6005748362502774674,15444675951402716900,524288 --field-...
-PATH: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
-FLAGS: LONG_DURATION, RAW_IP_NO_DNS, UNKNOWN_SOURCE
---------------------------------------------------------------------------------
-2026-02-09 18:50:31,431 - WARNING - [MEDIUM] N/A (TCP) → 72.145.35.97:443 (Unknown/Timeout) | dur:127s | score:13
-PARENT: wininit.exe (1080) → services.exe (1216)
-CMD: N/A
-PATH: N/A
-FLAGS: NEW_PROCESS, RAW_IP_NO_DNS, UNKNOWN_SOURCE
---------------------------------------------------------------------------------
