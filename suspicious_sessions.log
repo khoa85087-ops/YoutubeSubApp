@@ -1203,3 +1203,5 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 23:04:05,718 - ERROR - Scan error: [Errno 11004] host not found
+2026-02-09 23:04:15,283 - ERROR - Scan error: [Errno 11004] host not found
