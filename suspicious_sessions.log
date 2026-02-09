@@ -811,3 +811,15 @@ Explanations:
   - UNKNOWN_SOURCE: Process not in known safe list, increasing suspicion of unauthorized execution.
 Investigation Notes: Check for correlated events in related procs. If MEDIUM, recommend isolation and deep scan.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 19:00:07,786 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 13 | Malicious Intent: High if BEACON + EXFIL (boost: 0)
+Process: msedgewebview2.exe (PID: 11112) | Kind: TCP | Dest: 150.171.27.254:443 (Unknown/Timeout)
+Duration: 130s | Bytes Sent/Recv: 1819762/2655195
+Parent Chain: wininit.exe (1080) → services.exe (1216) → svchost.exe (1380) → SearchHost.exe (9508) → msedgewebview2.exe (10680) | Related Procs: services.exe (1216), svchost.exe (1380), SearchHost.exe (9508), msedgewebview2.exe (10680), wininit.exe (1080)
+Command Line: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --noerrdialogs --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.76...
+Executable Path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe
+Flags: POTENTIAL_EXFIL, UNKNOWN_SOURCE
+Explanations:
+  - POTENTIAL_EXFIL: High bytes sent (1819762B), possible data exfiltration.
+  - UNKNOWN_SOURCE: Process not in known safe list, increasing suspicion of unauthorized execution.
+Investigation Notes: Check for correlated events in related procs. If MEDIUM, recommend isolation and deep scan.
+----------------------------------------------------------------------------------------------------
