@@ -1287,3 +1287,21 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 23:36:30,061 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 17 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 6228) | TCP | 163.70.158.35:443 (edge-star-mini-shv-01-hkg1.facebook.com)
+Duration: 70s | Bytes sent/recv: 202,055,531 / 154,581,869
+Parent chain: explorer.exe (8372) → brave.exe (16668) | Related: explorer.exe (8372), brave.exe (16668)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2156,i,8019083124790889515,18151960136189783990,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: HIGH_DNS_ENTROPY, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 4.23 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
