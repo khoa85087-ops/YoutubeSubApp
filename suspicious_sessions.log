@@ -823,3 +823,19 @@ Explanations:
   - UNKNOWN_SOURCE: Process not in known safe list, increasing suspicion of unauthorized execution.
 Investigation Notes: Check for correlated events in related procs. If MEDIUM, recommend isolation and deep scan.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 19:01:22,913 - WARNING - [CRITICAL] Suspicious Session Detected | Score: 35 | Malicious Intent: High if BEACON + EXFIL (boost: 0)
+Process: EDOPro.exe (PID: 7400) | Kind: TCP | Dest: 149.202.51.153:7912 (vps-f21b157b.vps.ovh.net)
+Duration: 70s | Bytes Sent/Recv: 1966228/71538844
+Parent Chain: explorer.exe (8372) | Related Procs: 
+Command Line: C:\ProjectIgnis\EDOPro.exe
+Executable Path: C:\ProjectIgnis\EDOPro.exe
+Flags: FAKE_NAME, NEW_PROCESS, POTENTIAL_EXFIL, PUBLIC_NONSTD, SUSPICIOUS_PATH, UNKNOWN_SOURCE
+Explanations:
+  - FAKE_NAME: Process name mimics system or legit processes, common in malware masquerading.
+  - NEW_PROCESS: Process recently created, common in initial access or persistence phases.
+  - POTENTIAL_EXFIL: High bytes sent (1966228B), possible data exfiltration.
+  - PUBLIC_NONSTD: Connection to public IP on non-standard port, potential for unauthorized access.
+  - SUSPICIOUS_PATH: Executable path contains keywords indicating temporary or hidden locations.
+  - UNKNOWN_SOURCE: Process not in known safe list, increasing suspicion of unauthorized execution.
+Investigation Notes: Check for correlated events in related procs. If CRITICAL, recommend isolation and deep scan.
+----------------------------------------------------------------------------------------------------
