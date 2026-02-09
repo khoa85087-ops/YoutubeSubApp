@@ -1107,3 +1107,19 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 21:20:51,938 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: FnHotkeyUtility.exe (PID: 11596) | TCP | 103.30.235.171:443 (Unknown)
+Duration: 61s | Bytes sent/recv: 57,512 / 2,387,349
+Parent chain: wininit.exe (1080) → services.exe (1216) → LenovoUtilityService.exe (4812) | Related: services.exe (1216), wininit.exe (1080), LenovoUtilityService.exe (4812)
+Command line: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_e40ba436be734fd2\FnHotkeyUtility.exe
+Executable path: C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_e40ba436be734fd2\FnHotkeyUtility.exe
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+  - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
