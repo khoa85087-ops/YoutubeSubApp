@@ -1139,3 +1139,67 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 22:50:53,031 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: msedgewebview2.exe (PID: 11112) | TCP | 150.171.22.254:443 (Unknown)
+Duration: 85s | Bytes sent/recv: 2,993,275 / 3,353,574
+Parent chain: wininit.exe (1080) → services.exe (1216) → svchost.exe (1380) → SearchHost.exe (9508) → msedgewebview2.exe (10680) | Related: services.exe (1216), svchost.exe (1380), SearchHost.exe (9508), msedgewebview2.exe (10680), wininit.exe (1080)
+Command line: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --noerrdialogs --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.76...
+Executable path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+  - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
+2026-02-09 22:50:53,032 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: msedgewebview2.exe (PID: 11112) | TCP | 51.4.24.5:443 (Unknown)
+Duration: 85s | Bytes sent/recv: 2,993,275 / 3,353,574
+Parent chain: wininit.exe (1080) → services.exe (1216) → svchost.exe (1380) → SearchHost.exe (9508) → msedgewebview2.exe (10680) | Related: services.exe (1216), svchost.exe (1380), SearchHost.exe (9508), msedgewebview2.exe (10680), wininit.exe (1080)
+Command line: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --noerrdialogs --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.76...
+Executable path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+  - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
+2026-02-09 22:50:53,033 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: msedgewebview2.exe (PID: 11112) | TCP | 13.107.4.254:443 (Unknown)
+Duration: 85s | Bytes sent/recv: 2,993,275 / 3,353,574
+Parent chain: wininit.exe (1080) → services.exe (1216) → svchost.exe (1380) → SearchHost.exe (9508) → msedgewebview2.exe (10680) | Related: services.exe (1216), svchost.exe (1380), SearchHost.exe (9508), msedgewebview2.exe (10680), wininit.exe (1080)
+Command line: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --noerrdialogs --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.76...
+Executable path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+  - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
+2026-02-09 22:50:53,034 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: msedgewebview2.exe (PID: 11112) | TCP | 204.79.197.222:443 (Unknown)
+Duration: 77s | Bytes sent/recv: 2,993,275 / 3,353,574
+Parent chain: wininit.exe (1080) → services.exe (1216) → svchost.exe (1380) → SearchHost.exe (9508) → msedgewebview2.exe (10680) | Related: services.exe (1216), svchost.exe (1380), SearchHost.exe (9508), msedgewebview2.exe (10680), wininit.exe (1080)
+Command line: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --noerrdialogs --user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26200.76...
+Executable path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+  - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
