@@ -1075,3 +1075,19 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 20:14:55,684 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 12304) | TCP | 20.205.243.168:443 (Unknown)
+Duration: 79s | Bytes sent/recv: 225,652,241 / 168,550,704
+Parent chain: explorer.exe (8372) → brave.exe (3956) | Related: explorer.exe (8372), brave.exe (3956)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2240,i,6005748362502774674,15444675951402716900,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+  - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
