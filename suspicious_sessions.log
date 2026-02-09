@@ -1233,3 +1233,39 @@ Recommendation: MEDIUM alert → consider process isolation, network block, deep
 2026-02-09 23:08:23,909 - ERROR - Scan error: [Errno 11004] host not found
 2026-02-09 23:08:33,454 - ERROR - Scan error: [Errno 11004] host not found
 2026-02-09 23:08:43,004 - ERROR - Scan error: [Errno 11004] host not found
+2026-02-09 23:32:51,835 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 6228) | TCP | 20.205.243.168:443 (Unknown)
+Duration: 109s | Bytes sent/recv: 174,791,459 / 113,446,147
+Parent chain: explorer.exe (8372) → brave.exe (16668) | Related: explorer.exe (8372), brave.exe (16668)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2156,i,8019083124790889515,18151960136189783990,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
+2026-02-09 23:33:01,841 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 17 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 6228) | TCP | 140.82.113.3:443 (lb-140-82-113-3-iad.github.com)
+Duration: 119s | Bytes sent/recv: 174,791,459 / 113,446,147
+Parent chain: explorer.exe (8372) → brave.exe (16668) | Related: explorer.exe (8372), brave.exe (16668)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2156,i,8019083124790889515,18151960136189783990,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: HIGH_DNS_ENTROPY, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 4.09 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
