@@ -1123,3 +1123,19 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-09 22:22:26,614 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 15 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: SearchHost.exe (PID: 9508) | TCP | 52.98.33.130:443 (Unknown)
+Duration: 1863s | Bytes sent/recv: 9,586,843 / 15,177,249
+Parent chain: wininit.exe (1080) → services.exe (1216) → svchost.exe (1380) | Related: services.exe (1216), wininit.exe (1080), svchost.exe (1380)
+Command line: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe -ServerName:CortanaUI.AppXstmwaab17q5s3y22tp6apqz7a45vwv65.mca
+Executable path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe
+Flags: DNS_FAIL, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+  - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
