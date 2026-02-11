@@ -1485,3 +1485,21 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-11 19:53:25,438 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 17 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: Widgets.exe (PID: 9724) | TCP | 27.77.81.194:443 (desktop-d3lbcln)
+Duration: 111s | Bytes sent/recv: 1,339,442 / 1,013,425
+Parent chain: wininit.exe (1068) → services.exe (1204) → svchost.exe (1436) | Related: services.exe (1204), svchost.exe (1436), wininit.exe (1068)
+Command line: C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe -ServerName:Microsoft.Windows.DashboardServer
+Executable path: C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.1202.40.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe
+File info: Size=2,928,056 bytes | Created=Thu Jan 29 09:33:59 2026 | Modified=Thu Jan 29 09:34:06 2026
+Clustering: Destination seen on 7 sessions | Same IP used by 2 processes
+Flags: HIGH_DNS_ENTROPY, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 3.64 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
