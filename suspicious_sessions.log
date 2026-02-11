@@ -1413,3 +1413,57 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-11 19:44:45,949 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 22 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 13012) | TCP | 163.70.158.7:443 (edge-star-shv-01-hkg1.facebook.com)
+Duration: 509s | Bytes sent/recv: 50,238,953 / 61,499,513
+Parent chain: explorer.exe (8196) → brave.exe (13392) | Related: brave.exe (13392), explorer.exe (8196)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2208,i,12814815971130066240,3801721205254816620,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: HIGH_DNS_ENTROPY, NEW_PROCESS, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 4.10 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
+2026-02-11 19:44:45,950 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 22 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 13012) | TCP | 157.240.199.1:443 (edge-dgw-shv-01-hkg4.facebook.com)
+Duration: 509s | Bytes sent/recv: 50,238,953 / 61,499,513
+Parent chain: explorer.exe (8196) → brave.exe (13392) | Related: brave.exe (13392), explorer.exe (8196)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2208,i,12814815971130066240,3801721205254816620,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: HIGH_DNS_ENTROPY, NEW_PROCESS, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 4.07 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
+2026-02-11 19:44:45,950 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 22 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 13012) | TCP | 163.70.158.59:443 (edge-z-p3-shv-01-hkg1.facebook.com)
+Duration: 503s | Bytes sent/recv: 50,238,953 / 61,499,513
+Parent chain: explorer.exe (8196) → brave.exe (13392) | Related: brave.exe (13392), explorer.exe (8196)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2208,i,12814815971130066240,3801721205254816620,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: HIGH_DNS_ENTROPY, NEW_PROCESS, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 4.11 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
