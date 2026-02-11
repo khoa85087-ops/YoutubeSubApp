@@ -1395,3 +1395,21 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-11 19:43:09,650 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 22 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 13012) | TCP | 52.84.20.122:443 (server-52-84-20-122.lax53.r.cloudfront.net)
+Duration: 241s | Bytes sent/recv: 50,238,953 / 61,499,513
+Parent chain: explorer.exe (8196) → brave.exe (13392) | Related: brave.exe (13392), explorer.exe (8196)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2208,i,12814815971130066240,3801721205254816620,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: HIGH_DNS_ENTROPY, NEW_PROCESS, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 4.28 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
