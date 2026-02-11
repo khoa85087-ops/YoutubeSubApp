@@ -1359,3 +1359,39 @@ Behavior related:
 
 Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
 ----------------------------------------------------------------------------------------------------
+2026-02-11 19:38:28,084 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 20 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: msedgewebview2.exe (PID: 1604) | TCP | 40.99.10.34:443 (Unknown)
+Duration: 106s | Bytes sent/recv: 9,659,033 / 18,410,816
+Parent chain: wininit.exe (1068) → services.exe (1204) → svchost.exe (1436) → Widgets.exe (9724) | Related: svchost.exe (1436), services.exe (1204), Widgets.exe (9724), wininit.exe (1068)
+Command line: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=526.1202.10.0 --user-data-dir=C:\Users\AD\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\...
+Executable path: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe
+File info: Size=3,773,008 bytes | Created=Sun Jan 25 07:45:45 2026 | Modified=Fri Jan 16 14:17:18 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: DNS_FAIL, NEW_PROCESS, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - DNS_FAIL: DNS resolution failed or timed out
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
+2026-02-11 19:38:38,096 - WARNING - [MEDIUM] Suspicious Session Detected | Score: 22 | Type: Network dominant | Evolution: NEW | Boost: 0
+Process: brave.exe (PID: 13012) | TCP | 163.70.158.35:443 (edge-star-mini-shv-01-hkg1.facebook.com)
+Duration: 67s | Bytes sent/recv: 4,271,950 / 21,211,486
+Parent chain: explorer.exe (8196) → brave.exe (13392) | Related: brave.exe (13392), explorer.exe (8196)
+Command line: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=vi --service-sandbox-type=none --no-pre-read-main-dll --start-stack-profiler --metrics-shmem-handle=2208,i,12814815971130066240,3801721205254816620,524288 --field-...
+Executable path: C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+File info: Size=3,375,696 bytes | Created=Sun Dec 14 10:35:00 2025 | Modified=Wed Feb  4 15:44:01 2026
+Clustering: Destination seen on 1 sessions | Same IP used by 1 processes
+Flags: HIGH_DNS_ENTROPY, NEW_PROCESS, POTENTIAL_EXFIL, UNKNOWN_SOURCE
+
+Explanations (grouped):
+Network related:
+ - HIGH_DNS_ENTROPY: High domain entropy: 4.23 (possible DGA)
+Process related:
+Behavior related:
+
+Recommendation: MEDIUM alert → consider process isolation, network block, deep forensics.
+----------------------------------------------------------------------------------------------------
